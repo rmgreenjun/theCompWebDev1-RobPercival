@@ -15,23 +15,7 @@
 	<button id="randomBtn">Click Me</button>
 	<p id="resultPar"></p>
 	
-	<script>
-		document.getElementById("randomBtn").onclick = function(){
-			var userGuess = parseInt(document.getElementById("userGuess").value);
-			var randomNum = makeRandomInt();
-			if (userGuess == randomNum) {
-				document.getElementById("resultPar").innerHTML = "You guessed right!";
-			}else {
-				document.getElementById("resultPar").innerHTML = 
-				"Wrong guess again! The number was " +randomNum;
-			}
-		};	    	
-		
-		function makeRandomInt(){
-			return Math.floor(Math.random() *6);
-		}
-
-	</script>
+	<script src="fingers.js"></script>
 
 </body>
 
