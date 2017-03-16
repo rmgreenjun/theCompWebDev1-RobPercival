@@ -1,0 +1,200 @@
+
+	body {
+		margin:0;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	#topbar {
+		background-color:#7B0000;
+		width:100%;
+		height:40px;
+		color:white;
+		margin:0;
+		padding:0;
+	}
+	.clearfloat {
+		clear:both;
+		width:100%;
+	}
+	.fixedwidth {
+		width:1050px;
+		margin:0 auto;
+		height:100%;
+		padding:0;
+	}
+	.logodiv {
+		width:84px;
+		height:24px;
+		float:left;
+		margin-top:10px;
+		background-color:white;
+	}
+	#signindiv {
+		font-weight:bold;
+		font-size:.8em;
+		padding:15px 50px 8px 10px;
+		width:50px;
+		border-right:1px solid #990000;
+		border-left:1px solid #990000;
+		margin-left:10px;
+		float:left;
+		text-align:center;
+	}
+	#topmenudiv {
+		float:left;
+	}
+	#topmenudiv ul {
+		margin:0;
+		padding:0;
+	}
+	#topmenudiv li {
+		list-style:none;
+		font-weight:bold;
+		font-size:0.9em;
+		border-right:1px solid #990000;
+		padding:15px 20px 8px 20px;
+		height:100%;
+		float:left;
+	}
+	#searchdiv {
+		padding:10px 0 8px 0;
+		float:right;
+	}
+	#searchbox {
+		margin:-2.5px 10px 0 10px;
+		padding:3px 0 3px 10px;
+		border:none;
+		font-size:1em;
+		background-image:url("images/magGlass.png");
+		background-color:white;
+		background-repeat:no-repeat;
+		background-position:95% 50%;
+	}
+	#newsbar {
+		background-color:#990000;
+		width:100%;
+		height:90px;
+		color:white;
+	}
+	#newsbar p {
+		margin:0;
+		padding-top:5px;
+		font-size:2.75em;
+		font-family:Verdana, Geneva, sans-serif;
+		float:left;
+	}
+	#uk {
+		font-size:.65em;
+		padding-left:20px;
+	}
+	#rss {
+		float:right;
+		padding-top:35px;
+		font-size:.9em;
+	}
+	#topicmenu {
+		float:left;
+		background-color:#3E0C0D;
+		margin-top:5px;
+		padding:5px 0 4px 0;
+	}
+	#topicmenu ul {
+		margin:0;
+		padding:0;
+	}
+	#topicmenu li {
+		float:left;
+		list-style:none;
+		height:100%;
+		font-weight:bold;
+		font-size:.72em;
+		border-right:1px solid #5B2D2F;
+		padding:3px 10px 3px 10px;
+	}
+	.selected {
+		background-color:#EDEDED;
+		color:#505050;
+	}
+	#content {
+		width:100%;
+		color:#505050;
+		font-size:.8em;
+	}
+	.date {
+		font-weight:bold;
+	}
+	#story1hdr {
+		color:#1F4F82;
+		font-size:2.5em;
+		color:#1F4F82;
+	}
+	#story1hdr a {
+		color:#1F4F82;
+		text-decoration:none;
+	}
+	#story1hdr a:hover {
+		text-decoration:underline;
+	}
+	#riverimg {
+		float:left;
+	}
+	#story1introprg {
+		color:#505050;
+	}
+	.newsdiv {
+		float:left;
+		height:180px;
+		width:275px;
+		position:relative;
+		left:10px;
+		top:-5px;
+		margin:0;
+		padding:0;
+		font-size:1.1em;
+	}
+	.newsdiv p {
+		margin:5px 0 5px 0;
+		padding:0;
+	}
+	.newsdiv a {
+		text-decoration:none;
+		color:#1F4F82;
+	}
+	a:hover {
+		text-decoration:underline;
+	}
+	.video {
+		background-image:url("images/playbtn.png");
+		background-color:white;
+		background-repeat:no-repeat;
+		background-position:center-left;
+		padding-left:20px;
+	}
+	#watchdiv {
+		float:right;
+		background-color:#EEEEEE;
+		width:340px;
+		height:200px;
+		padding:0;
+		margin:0;
+		position:relative;
+		top:-90px;
+	}
+	#watchdiv h2 {
+		color:#505050;
+		font-size:1.8em;
+		font-weight:bold;
+		padding:0;
+		margin:10px 0 10px 8px;
+		float:left;
+	}
+	.squarespn {
+		margin:20px 5px 0 0;
+		padding:0;
+		float:right;
+	}
+	.squarespn a:hover {
+		background-color:red;
+	}
+	#watchDivPic {
+		margin-left:0px;
+	}
