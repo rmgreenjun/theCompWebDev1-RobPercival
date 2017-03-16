@@ -5,12 +5,12 @@
 	*/	
 	
 	document.getElementById("textChanger").onclick=function() {
-		document.getElementById("firstDiv").innerHTML="Yo Mama a Gorilla!";
+		document.getElementById("firstDiv").innerHTML="Yummy ice cream!";
 	};
 	
 	document.getElementById("textAppender").onclick=function() {
 			document.getElementById("secondDiv").innerHTML
-			=document.getElementById("secondDiv").innerHTML + "sucks balls";
+			=document.getElementById("secondDiv").innerHTML + "eats ice cream with a fork!";
 	};
 	
 	document.getElementById("textCreator").onclick=function() {

@@ -1,0 +1,37 @@
+
+<!doctype html>
+
+<html>
+
+<head>
+	<title>How Many Fingers?</title>
+</head>
+
+<body>
+	<h1>How many fingers am I holding up?<br />
+	(figuratively.I'm a computer. I don't have hands.)</h1>
+	<p id="introPar">Choose a number from 0 to 5. Enter this number in the box. Click button for results.</p>
+	<input id="userGuess" placeholder="enter your number" />
+	<button id="randomBtn">Click Me</button>
+	<p id="resultPar"></p>
+	
+	<script>
+		function makeRandomInt(){
+			return Math.floor(Math.random() *6);
+		}
+				document.getElementById("randomBtn").onclick = function myRandomNum(){
+				var userGuess = document.getElementById("userGuess").value;
+				var randomNum = makeRandomInt();
+				if (userGuess == randomNum) {
+					document.getElementById("resultPar").innerHTML = "You guessed right!";
+				}else {
+					document.getElementById("resultPar").innerHTML = 
+					"Wrong guess again! The number was " +randomNum;
+				}
+		}	
+
+	</script>
+
+</body>
+
+</html> 
