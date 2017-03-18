@@ -1,17 +1,30 @@
 
-		 var randomBtn = function(){
-			var userGuess = parseInt(document.getElementById("userGuess").value);
+		 var $ = function(id) {
+			 return document.getElementById(id);
+		 };
+		 
+		 var randomBtn = function() {
+			var userGuess = parseInt($("userGuess").value);
 			var randomNum = makeRandomInt();
-			if (userGuess == randomNum) {
-				document.getElementById("resultPar").innerHTML = "You guessed right!";
+			
+			if (isNaN(userGuess)) {
+				$("resultPar").innerHTML = "Enter a number.";
+			} else if (userGuess == randomNum) {
+				$("resultPar").innerHTML = "You guessed right!";
 			}else {
-				document.getElementById("resultPar").innerHTML = 
+				$("resultPar").innerHTML = 
 				"Wrong. Guess again! The number was " +randomNum;
 			}
-		};	    	
+		};
 		
-		document.getElementById("randomBtn").onclick = randomBtn;
+		var clearEntry = function() {
+			$("userGuess").value = "";
+			$("resultPar").innerHTML = "";
+		}
 		
-		function makeRandomInt(){
+		$("randomBtn").onclick = randomBtn;
+		$("clearBtn").onclick = clearEntry;
+		
+		function makeRandomInt() {
 			return Math.floor(Math.random() *6);
 		}
