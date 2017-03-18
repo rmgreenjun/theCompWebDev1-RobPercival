@@ -5,17 +5,24 @@
 
 <head>
 	<title>How Many Fingers?</title>
+	<link rel="stylesheet" href="fingers.css">
 </head>
 
 <body>
-	<h1>How many fingers am I holding up?</h1>
-	<h2>(figuratively. I'm a computer. I don't have hands.)</h2>
-	<p id="introPar">Choose a number from 0 to 5. Enter this number in the box. 
-		Click the "Random Number" button for results.</p>
-	<input type="text" id="userGuess" name="userGuess" placeholder="enter your number" />
-	<button id="randomBtn">Random Number</button>
-	<button id="clearBtn">Clear Entry</button>
-	<p id="resultPar"></p>
+	<div id="containerDiv">
+		<div id="topBarDiv">
+			<div class="fixedWidthDiv">
+				<h1>How many fingers am I holding up?</h1>
+				<h2>(Figuratively. I'm a webpage. I don't have hands.)</h2>
+				<p id="introPar">Choose a number from 0 to 5. Enter this number in the box. 
+					Click the "Random Number" button for results.</p>
+				<input type="text" id="userGuess" name="userGuess" placeholder="enter your number" />
+				<button type="button" class="button" id="randomBtn">Random Number</button>
+				<button type="button" class="button" id="clearBtn">Clear Entry</button>
+				<p id="resultPar"></p>
+			</div>
+		</div>
+	</div>
 	
 	<script src="fingers.js"></script>
 

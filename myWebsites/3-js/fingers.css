@@ -1,0 +1,55 @@
+
+body {
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	border:2px red solid;
+	background-image:url('images/Hands-clip-art-and-google-on.png');
+	background-color:yellow;
+}
+#topBarDiv {
+	background-color:none;
+	width:100%;
+	height:40px;
+	color:white;
+	margin:0;
+	padding:0;
+}
+.fixedWidthDiv {
+	width:1050px;
+	margin:0 auto;
+	height:100%;
+	padding-top:25px;
+	/*border:2px blue solid;*/
+	color:black;
+}
+#introPar {
+	font-weight:bold;
+}
+#userGuess {
+	background-color:green;
+	color:white;
+	font-weight:bold;
+	border:3px solid black;
+}
+.button {
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	border:3px solid black;
+	border-radius:45px;
+	margin-left:25px;
+	height:50px;
+	width:200px;
+}
+#randomBtn {
+	background-color:blue;
+}
+#clearBtn {
+	background-color:red;
+}
+#resultPar {
+	font-size: 40px;
+	font-weight:bold;
+	color:black;
+}
+
